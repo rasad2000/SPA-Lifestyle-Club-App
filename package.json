@@ -1,0 +1,22 @@
+{
+  "name": "spa-garden-club",
+  "private": true,
+  "version": "0.1.0",
+  "description": "German-language lifestyle app for a fictional private members' club — Expo client, feed/course server, shared contract",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "server": "npm run dev -w @spa/server",
+    "mobile": "npm run start -w @spa/mobile",
+    "test": "npm test -w @spa/contract -w @spa/server -w @spa/mobile",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "dependencies": {
+    "@spa/mobile": "^0.1.0"
+  }
+}

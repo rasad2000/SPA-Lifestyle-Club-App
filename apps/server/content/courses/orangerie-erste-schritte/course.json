@@ -1,0 +1,69 @@
+{
+  "slug": "orangerie-erste-schritte",
+  "title": "Erste Schritte in der Orangerie",
+  "subtitle": "Beispielinhalt · Wie die Orangerie funktioniert: Plattform, Live-Sessions, Bootcamps.",
+  "level": "einsteiger",
+  "access": "member",
+  "area": "orangerie",
+  "order": 10,
+  "lessons": [
+    {
+      "slug": "willkommen-in-der-orangerie",
+      "title": "Willkommen in der Orangerie",
+      "durationMin": 4,
+      "preview": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ein kurzer Überblick: was die Orangerie ist und wie du sie optimal nutzt."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Platzhalter",
+          "text": "Hier steht später das Erklärvideo zu den ersten Schritten in der Orangerie."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    },
+    {
+      "slug": "live-sessions",
+      "title": "Orangerie Live-Sessions",
+      "durationMin": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wann die Live-Sessions stattfinden und wie du teilnimmst."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    },
+    {
+      "slug": "bootcamps",
+      "title": "Die Orangerie-Bootcamps",
+      "durationMin": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Welche Bootcamps es gibt und in welcher Reihenfolge sie sinnvoll sind."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    }
+  ]
+}

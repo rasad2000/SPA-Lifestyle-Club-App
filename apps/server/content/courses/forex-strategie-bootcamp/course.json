@@ -1,0 +1,92 @@
+{
+  "slug": "forex-strategie-bootcamp",
+  "title": "Forex Strategie Bootcamp",
+  "subtitle": "Beispielinhalt · Vom Chart zum Trade-Plan: Marktstruktur, Zonen, Session-Timing.",
+  "level": "fortgeschritten",
+  "access": "member",
+  "area": "club",
+  "order": 1,
+  "lessons": [
+    {
+      "slug": "marktstruktur",
+      "title": "Marktstruktur lesen",
+      "durationMin": 12,
+      "preview": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Höhere Hochs und höhere Tiefs zeigen einen Aufwärtstrend, tiefere Hochs und tiefere Tiefs einen Abwärtstrend. Bevor du einen Einstieg suchst, klärst du, in welcher Struktur der Markt gerade ist."
+        },
+        {
+          "type": "heading",
+          "text": "Worauf du achtest"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Den übergeordneten Zeitrahmen zuerst (H4, Daily)",
+            "Den letzten Strukturbruch markieren",
+            "Seitwärtsphasen als eigene Situation behandeln"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    },
+    {
+      "slug": "einstiegszonen",
+      "title": "Einstiegszonen definieren",
+      "durationMin": 14,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Eine Einstiegszone ist ein Preisbereich, an dem der Markt zuvor deutlich reagiert hat."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    },
+    {
+      "slug": "session-timing",
+      "title": "Session-Timing: London & New York",
+      "durationMin": 10,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Die meiste Bewegung entsteht in den Überlappungen der großen Handelssitzungen."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    },
+    {
+      "slug": "trade-plan",
+      "title": "Der Trade-Plan",
+      "durationMin": 9,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Einstieg, Stop-Loss, Ziele und Positionsgröße stehen fest, bevor die Order platziert wird."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+node_modules/
+apps/mobile/dist/
+apps/mobile/.expo/
+.playwright-mcp/
+.env
+.env.*
+!.env.example
+# runtime state: sqlite db, uploaded/seeded media, generated seeds (third-party content stays OUT of git)
+apps/server/data/
+tools/out/
+*.log
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+apps/mobile/.claude/

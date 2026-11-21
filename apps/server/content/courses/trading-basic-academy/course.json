@@ -1,0 +1,221 @@
+{
+  "slug": "trading-basic-academy",
+  "title": "Trading Basic Academy",
+  "subtitle": "Beispielinhalt · Die Grundlagen: Risiko pro Trade, Stop-Loss und Take-Profit, Trade-Management und Psychologie.",
+  "level": "einsteiger",
+  "access": "member",
+  "area": "club",
+  "order": 0,
+  "lessons": [
+    {
+      "slug": "positionsgroesse-und-risiko",
+      "title": "Positionsgröße & Risiko pro Trade",
+      "durationMin": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Kein Setup ist so gut, dass es nicht verlieren kann. Wer langfristig im Markt bleiben will, entscheidet deshalb VOR jedem Einstieg, wie viel er bei diesem Trade höchstens verlieren darf – und leitet daraus die Positionsgröße ab."
+        },
+        {
+          "type": "heading",
+          "text": "Warum ein fester Prozentsatz?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Viele Trader riskieren pro Trade einen kleinen, festen Anteil ihres Kontos, häufig zwischen 0,5 % und 2 %. Der Grund ist Mathematik: Verlustserien kommen vor. Zehn Verluste in Folge kosten bei 1 % Risiko pro Trade rund 9,6 % des Kontos – bei 5 % pro Trade dagegen rund 40 %."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Ein Verlust von 10 % braucht anschließend rund +11 %, um ihn auszugleichen.",
+            "Ein Verlust von 25 % braucht bereits rund +33 %.",
+            "Ein Verlust von 50 % braucht +100 % – das Konto muss sich verdoppeln."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Die Formel"
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Positionsgröße",
+          "text": "Positionsgröße (Lots) = Risikobetrag ÷ (Stop-Abstand × Wert einer Kursbewegung pro Lot)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rechenbeispiel Gold (XAUUSD): Kontostand 10.000 USD, Risiko 1 % = 100 USD. Einstieg bei 4.000,00, Stop-Loss bei 3.995,00 – der Stop-Abstand beträgt also 5,00 USD. Bei vielen Brokern entspricht 1 Lot Gold 100 Unzen; eine Bewegung von 1 USD bewegt eine 1-Lot-Position damit um 100 USD. Das Risiko pro Lot liegt bei 5 × 100 = 500 USD, die Positionsgröße bei 100 ÷ 500 = 0,20 Lot."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Kontraktgröße und „Pip“-Definition für Gold unterscheiden sich je nach Broker – immer die Kontraktspezifikation prüfen.",
+            "Erst den Stop aus dem Chart bestimmen, dann die Lotgröße berechnen – nie umgekehrt.",
+            "Im Zweifel abrunden, nicht aufrunden.",
+            "Spread und Kommission erhöhen das tatsächliche Risiko leicht.",
+            "Mehrere gleichgerichtete Positionen im selben Markt addieren ihr Risiko."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "success",
+          "title": "Merksatz",
+          "text": "Der Stop-Loss ergibt sich aus dem Chart, die Positionsgröße aus dem Risiko. Wer es umgekehrt macht, setzt den Stop dorthin, wo es bequem ist – nicht dorthin, wo die Idee widerlegt ist."
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "title": "Keine Anlageberatung",
+          "text": "Dieser Inhalt dient ausschließlich der Bildung und stellt keine Anlageberatung dar. Der Handel mit Devisen, Gold und CFDs ist mit hohen Risiken verbunden und kann zum Verlust des eingesetzten Kapitals führen."
+        }
+      ],
+      "preview": true
+    },
+    {
+      "slug": "stop-loss-take-profit-crv",
+      "title": "Stop-Loss, Take-Profit & Chance-Risiko-Verhältnis",
+      "durationMin": 9,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Ein Stop-Loss gehört an den Punkt, an dem die Trade-Idee nicht mehr stimmt – zum Beispiel jenseits des letzten Hochs oder Tiefs. Ein Take-Profit gehört an ein realistisches Ziel, etwa die nächste markante Zone. Erst aus beiden ergibt sich, ob sich ein Trade überhaupt lohnt."
+        },
+        {
+          "type": "heading",
+          "text": "Das Chance-Risiko-Verhältnis (CRV)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Das CRV setzt den möglichen Gewinn ins Verhältnis zum möglichen Verlust. Beispiel Long: Einstieg 4.000, Stop-Loss 3.995 (Risiko 5), Take-Profit 4.010 (Chance 10). Das ergibt ein CRV von 1:2 – für jeden riskierten Dollar sind zwei Dollar Gewinn möglich."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Benötigte Trefferquote (vor Kosten)",
+          "text": "Break-even-Trefferquote = 1 ÷ (1 + CRV). Bei 1:1 sind 50 % Treffer nötig, bei 1:2 rund 33 %, bei 1:3 nur noch 25 %."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rechenbeispiel über zehn Trades mit je 1 % Risiko, CRV 1:2 und 40 % Trefferquote: 4 Gewinner × 2 % = +8 %, 6 Verlierer × 1 % = −6 %. Unterm Strich +2 % vor Spread und Gebühren – obwohl die Mehrheit der Trades verloren hat."
+        },
+        {
+          "type": "heading",
+          "text": "Typische Fehler"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Den Stop-Loss im laufenden Trade weiter wegschieben, „damit er nicht getroffen wird“.",
+            "Ziele so weit setzen, dass das CRV auf dem Papier gut aussieht, der Markt sie aber selten erreicht.",
+            "Den Spread vergessen: Charts zeigen meist den Bid-Kurs, Short-Positionen werden aber zum Ask geschlossen. Ein Stop kann deshalb bei einer Spread-Ausweitung auslösen, ohne dass der Chart ihn berührt.",
+            "Ein hohes CRV allein für eine Strategie halten – Trefferquote und CRV gehören immer zusammen."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "title": "Keine Anlageberatung",
+          "text": "Alle Zahlen sind vereinfachte Rechenbeispiele und keine Prognose. Dieser Inhalt stellt keine Anlageberatung dar; Verluste bis zum Totalverlust des eingesetzten Kapitals sind möglich."
+        }
+      ]
+    },
+    {
+      "slug": "break-even-und-trade-management",
+      "title": "Break-Even & Trade-Management",
+      "durationMin": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Trade-Management bedeutet: Du entscheidest vorher, was du tust, wenn der Kurs sich in deine Richtung bewegt – und hältst dich dann daran. Die drei gängigsten Werkzeuge sind Break-Even, Teilgewinnmitnahmen und ein nachgezogener Stop."
+        },
+        {
+          "type": "heading",
+          "text": "Break-Even"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beim Break-Even wird der Stop-Loss auf den Einstiegskurs verschoben, oft sobald der Trade ein CRV von 1:1 erreicht hat. Das ursprüngliche Risiko ist damit weitgehend aus dem Trade genommen."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Vorteil: Ein Trade, der bereits im Plus war, wird nicht mehr zum vollen Verlust.",
+            "Nachteil: Normale Rücksetzer stoppen dich häufiger aus, bevor das eigentliche Ziel erreicht wird.",
+            "„Break-Even“ ist selten exakt null: Spread und Kommission bleiben – manche setzen den Stop daher wenige Punkte über (Long) bzw. unter (Short) den Einstieg.",
+            "Bei Kurslücken (Wochenende, Nachrichten) kann ein Stop schlechter ausgeführt werden als geplant (Slippage)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Teilgewinne & Trailing Stop"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bei Teilgewinnmitnahmen wird ein Teil der Position am ersten Ziel geschlossen, der Rest läuft weiter – häufig mit Stop auf Break-Even. Ein Trailing Stop zieht den Stop schrittweise hinter dem Kurs her, etwa unter jedes neue höhere Tief. Beides sichert Gewinne, kappt aber auch einen Teil großer Bewegungen."
+        },
+        {
+          "type": "callout",
+          "tone": "success",
+          "title": "Plan statt Bauchgefühl",
+          "text": "Schreibe vor dem Einstieg auf: Wo liegt der Stop? Wo die Ziele? Ab wann gehst du auf Break-Even? Wer diese Fragen erst im laufenden Trade beantwortet, entscheidet unter Stress."
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "title": "Keine Anlageberatung",
+          "text": "Dieser Inhalt erklärt allgemeine Techniken und ist keine Empfehlung für einen bestimmten Trade. Er stellt keine Anlageberatung dar; der Handel mit gehebelten Produkten ist mit hohen Risiken verbunden."
+        }
+      ]
+    },
+    {
+      "slug": "trading-psychologie",
+      "title": "Trading-Psychologie",
+      "durationMin": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Die meisten Regeln sind leicht zu verstehen und schwer einzuhalten. Der Grund ist selten fehlendes Wissen, sondern Emotion: Angst, Gier und der Wunsch, einen Verlust sofort zurückzuholen."
+        },
+        {
+          "type": "heading",
+          "text": "Die häufigsten Fallen"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "FOMO – die Angst, etwas zu verpassen: Einstieg ohne Setup, weil der Kurs „ohne mich läuft“.",
+            "Revenge-Trading – nach einem Verlust sofort und größer wieder einsteigen, um ihn auszugleichen.",
+            "Overtrading – zu viele Trades aus Langeweile oder Ungeduld.",
+            "Verlustaversion – Verlierer laufen lassen und Gewinner zu früh schließen.",
+            "Bestätigungsfehler – nur noch Informationen sehen, die zur eigenen Position passen."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Was hilft"
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Ein Trading-Journal: Einstieg, Stop, Ziel, Ergebnis – und warum du den Trade genommen hast.",
+            "Ein Tageslimit, z. B. Schluss nach drei Verlusten oder nach 3 % Tagesverlust.",
+            "Eine kurze Checkliste vor jedem Einstieg.",
+            "Bewusste Pausen nach großen Gewinnen genauso wie nach Verlusten."
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "success",
+          "title": "Perspektive",
+          "text": "Ein Verlust nach Plan ist ein guter Trade. Ein Gewinn gegen den eigenen Plan ist ein Warnsignal."
+        },
+        {
+          "type": "callout",
+          "tone": "warning",
+          "title": "Keine Anlageberatung",
+          "text": "Dieser Inhalt dient ausschließlich der Bildung und stellt keine Anlage- oder psychologische Beratung dar. Trading ist mit erheblichen finanziellen Risiken verbunden."
+        }
+      ]
+    }
+  ]
+}

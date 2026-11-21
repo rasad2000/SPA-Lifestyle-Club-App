@@ -1,0 +1,15 @@
+# Consistent text files across Windows, macOS and Linux.
+* text=auto eol=lf
+
+# Generated art, fonts and runtime databases must not be normalized.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.sqlite binary
+*.sqlite-shm binary
+*.sqlite-wal binary

@@ -1,0 +1,71 @@
+{
+  "slug": "copytrader-anleitung",
+  "title": "Copytrader-Anleitung",
+  "subtitle": "Beispielinhalt · Den kostenlosen SPA-Copytrader in drei Schritten einrichten.",
+  "level": "einsteiger",
+  "access": "member",
+  "area": "club",
+  "order": 2,
+  "lessons": [
+    {
+      "slug": "konto-eroeffnen",
+      "title": "Konto beim Partner-Broker eröffnen",
+      "durationMin": 5,
+      "preview": true,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Für den Copytrader brauchst du ein Konto bei unserem Partner-Broker mit einer Einzahlung ab 200 $."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            "Konto über den Club-Link eröffnen",
+            "Identität bestätigen",
+            "Mindestens 200 $ einzahlen"
+          ]
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    },
+    {
+      "slug": "copytrader-verbinden",
+      "title": "Copytrader verbinden",
+      "durationMin": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Verbinde dein Handelskonto mit dem SPA-Copytrader."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    },
+    {
+      "slug": "risiko-einstellen",
+      "title": "Risiko richtig einstellen",
+      "durationMin": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Lege fest, mit welchem Anteil deines Kapitals der Copytrader handelt."
+        },
+        {
+          "type": "callout",
+          "tone": "info",
+          "title": "Beispielinhalt",
+          "text": "Dieser Text ist ein Platzhalter. Hier stehen später die Inhalte des SPA Garden Club."
+        }
+      ]
+    }
+  ]
+}

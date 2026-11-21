@@ -1,0 +1,30 @@
+# SPA app server as a systemd USER unit. NOT installed / enabled —
+# see docs/demo.md for the (manual) install steps.
+#
+# Why `node --import tsx` instead of `npm run start -w @spa/server`: one process, so
+# SIGTERM from `systemctl stop` reaches main.ts directly (graceful shutdown: WS clients
+# get a 1001 close, the SQLite WAL is checkpointed). npm -> tsx -> node is three
+# processes, which is how the integration run lost track of its PID.
+#
+# The node binary is the pi-node install that `command -v node` resolves to on this box
+# (shared with the pi agent). If node is upgraded there, this path must follow.
+#
+# Config comes from apps/server/.env (PORT/HOST/INGEST_TOKEN); config.ts anchors every
+# default path to apps/server/, not to the working directory.
+[Unit]
+Description=SPA app server (feed/course API, live WebSocket, web build on :8790)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/spa-garden-club
+# Node 22+ (better-sqlite3 is built per Node version); point this at your node binary.
+ExecStart=/usr/bin/node --import tsx apps/server/src/main.ts
+Restart=on-failure
+RestartSec=5
+# main.ts force-exits itself 5 s after SIGTERM; give it headroom before SIGKILL.
+TimeoutStopSec=15
+
+[Install]
+WantedBy=default.target
